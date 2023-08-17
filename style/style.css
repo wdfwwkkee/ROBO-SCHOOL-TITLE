@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #141024;   
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 3em;
+    font-size: 30px;
+    align-items: flex-end;
+    color: #FFF;
+}
+
+.header > ol {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    font-family: Jost;
+    font-size: 15px;
+}
+
+.header > ol > ul > a {
+    color: #FFF;
+}
+
+.logo {
+    margin-top: 1em;
+}
+
+.main-container {
+    color: #FFF;
+    display: flex;
+    height: 945px;
+    width: 1864px;
+    background-color: #141024;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-content {
+    height: 720px;
+    width: 700px;
+    margin-left: 25em;
+    margin-top: 10em;
+}
+
+.title {
+    font-size: 70px;
+}
+
+
+.text-content > p {
+    padding-top: 1em;
+    display: block;
+    width: 390px;
+    font-size: 20px;
+    position: relative;
+}
+
+.button-content {
+    padding-top: 3em;
+}
+
+.button {
+    display: inline-flex;
+    padding-top: 0em;
+    background-color: #D52027;
+    align-items: center;
+    padding: 2em;
+    border-radius: 5px;
+    gap: 10px;
+    max-height: 1em;
+}
+
+.button > a {
+    color:#FFF;
+    font-size: 18px;
+}
+
+
+.img-content {
+    display: flex;
+    width: 1000px;
+    height: 400px;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10em;
+}
+
+.eclipse > img {
+    width: 783px;
+    height: 783px;
+}
+
+.girl {
+    position: absolute;
+    margin-right: 7em;
+    height: 880px;
+}
+.girl > img {
+    width: 515.525px;
+    height: 909.485px
+}
+
